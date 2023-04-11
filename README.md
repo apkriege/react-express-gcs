@@ -4,7 +4,7 @@ Simple react app sends a file to the backend, scans the file for viruses, and up
 ## To Start
 1. Open two terminals and navigate to client and server directories respectivley 
 2. Run <code>npm start</code>
-3. Login to your gcloud account via the CLI, this will act as the user to connect to GCP
+3. Login to your gcloud account via the CLI, this will act as the user to connect to GCP <code>gcloud auth application-default login</code>
 
 
 #### Notes
