@@ -18,9 +18,12 @@ app.use(cors());
 const projectId = process.env.PROJECT_ID;
 const bucketName = process.env.BUCKET_NAME;
 
-// TODO: Add the functionality to create socket channels for multiple
+// TODO: 
+// - Add the functionality to create socket channels for multiple
 // uploads at the same time, so that the progress of each upload can
 // be tracked separately
+// - Need to return metadata based on the file uploaded and the location 
+// of the file in the bucket
 
 
 // Set up multer storage configuration
