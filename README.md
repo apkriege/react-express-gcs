@@ -8,5 +8,5 @@ Simple react app sends a file to the backend, scans the file for viruses, and up
 
 
 #### Notes
-- You will need to set up ClamAV either locally or through a TCP connection https://github.com/kylefarris/clamscan
+- If you want to use the file virus scanning you will need to set up ClamAV either locally or through a TCP connection https://github.com/kylefarris/clamscan
 - Tips how to install https://gist.github.com/gagarine/9168c1b7e4b5f55cb3254582e30d808e
