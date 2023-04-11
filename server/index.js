@@ -25,7 +25,6 @@ const bucketName = process.env.BUCKET_NAME;
 // - Need to return metadata based on the file uploaded and the location 
 // of the file in the bucket
 
-
 // Set up multer storage configuration
 const storage = multer.diskStorage({
   destination: "./uploads",
